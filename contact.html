@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - LifeCare Hospital</title>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4fafa;
+            color: #333;
+        }
+
+        header {
+            background: #087f8c;
+            color: white;
+            padding: 20px 7%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        nav a:hover { color: #b9f3ec; }
+
+        .content {
+            text-align: center;
+            padding: 70px 20px;
+            min-height: 70vh;
+        }
+
+        h1 { color: #087f8c; margin-bottom: 25px; }
+
+        .contact-box {
+            background: white;
+            max-width: 600px;
+            margin: auto;
+            padding: 35px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px #00000015;
+        }
+
+        .contact-box p { margin: 15px 0; }
+
+        .btn {
+            display: inline-block;
+            background: #087f8c;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        footer {
+            background: #064b52;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header { flex-direction: column; }
+            nav { text-align: center; line-height: 2; }
+            .contact-box { padding: 25px 15px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>LifeCare Hospital</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="doctors.html">Doctors</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="content">
+    <h1>Contact Us</h1>
+
+    <div class="contact-box">
+        <p><strong>Address:</strong> Main Road, Pune, Maharashtra</p>
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Email:</strong> info@lifecarehospital.example</p>
+
+        <a href="mailto:info@lifecarehospital.example"
+           class="btn">Send Email</a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 LifeCare Hospital. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
