@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - LifeCare Hospital</title>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4fafa;
+            color: #333;
+        }
+
+        header {
+            background: #087f8c;
+            color: white;
+            padding: 20px 7%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        nav a:hover { color: #b9f3ec; }
+
+        .content {
+            text-align: center;
+            padding: 60px 7%;
+            min-height: 70vh;
+        }
+
+        h1 { color: #087f8c; margin-bottom: 30px; }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            width: 230px;
+            padding: 30px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px #00000015;
+            transition: 0.3s;
+        }
+
+        .card:hover { transform: translateY(-5px); }
+
+        .card h3 { color: #087f8c; margin-bottom: 12px; }
+
+        footer {
+            background: #064b52;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header { flex-direction: column; }
+            nav { text-align: center; line-height: 2; }
+            .card { width: 100%; max-width: 320px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>LifeCare Hospital</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="doctors.html">Doctors</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="content">
+    <h1>Our Medical Services</h1>
+
+    <div class="container">
+        <div class="card">
+            <h3>❤️ Cardiology</h3>
+            <p>Heart care and treatment.</p>
+        </div>
+
+        <div class="card">
+            <h3>🩺 General Medicine</h3>
+            <p>General health checkups and consultations.</p>
+        </div>
+
+        <div class="card">
+            <h3>👶 Pediatrics</h3>
+            <p>Specialized healthcare for children.</p>
+        </div>
+
+        <div class="card">
+            <h3>🚑 Emergency Care</h3>
+            <p>Emergency medical assistance.</p>
+        </div>
+
+        <div class="card">
+            <h3>🧪 Laboratory</h3>
+            <p>Medical tests and diagnostic services.</p>
+        </div>
+
+        <div class="card">
+            <h3>🦷 Dental Care</h3>
+            <p>Oral health and dental treatments.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 LifeCare Hospital. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
