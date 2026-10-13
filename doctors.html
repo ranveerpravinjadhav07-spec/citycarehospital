@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctors - LifeCare Hospital</title>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4fafa;
+            color: #333;
+        }
+
+        header {
+            background: #087f8c;
+            color: white;
+            padding: 20px 7%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        nav a:hover { color: #b9f3ec; }
+
+        .content {
+            text-align: center;
+            padding: 60px 7%;
+            min-height: 70vh;
+        }
+
+        h1 { color: #087f8c; margin-bottom: 30px; }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .doctor {
+            background: white;
+            width: 250px;
+            padding: 30px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px #00000015;
+        }
+
+        .doctor h3 { color: #087f8c; margin-bottom: 10px; }
+
+        .symbol {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #064b52;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header { flex-direction: column; }
+            nav { text-align: center; line-height: 2; }
+            .doctor { width: 100%; max-width: 320px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>LifeCare Hospital</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="doctors.html">Doctors</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="content">
+    <h1>Meet Our Doctors</h1>
+
+    <div class="container">
+        <div class="doctor">
+            <div class="symbol">👨‍⚕️</div>
+            <h3>Dr. Rahul Sharma</h3>
+            <p>Cardiologist</p>
+        </div>
+
+        <div class="doctor">
+            <div class="symbol">👩‍⚕️</div>
+            <h3>Dr. Priya Patel</h3>
+            <p>General Physician</p>
+        </div>
+
+        <div class="doctor">
+            <div class="symbol">👨‍⚕️</div>
+            <h3>Dr. Amit Verma</h3>
+            <p>Pediatrician</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 LifeCare Hospital. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
